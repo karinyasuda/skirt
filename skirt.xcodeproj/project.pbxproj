@@ -13,6 +13,11 @@
 		9A14BDC71AA9705A00C47618 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDC61AA9705A00C47618 /* Images.xcassets */; };
 		9A14BDCA1AA9705A00C47618 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDC81AA9705A00C47618 /* LaunchScreen.xib */; };
 		9A14BDD61AA9705A00C47618 /* skirtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A14BDD51AA9705A00C47618 /* skirtTests.swift */; };
+		9A14BDE41AA9713E00C47618 /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDE01AA9713E00C47618 /* images-1.jpg */; };
+		9A14BDE51AA9713E00C47618 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDE11AA9713E00C47618 /* images.jpg */; };
+		9A14BDE61AA9713E00C47618 /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDE21AA9713E00C47618 /* imgres-1.jpg */; };
+		9A14BDE71AA9713E00C47618 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BDE31AA9713E00C47618 /* imgres.jpg */; };
+		9A14BE1B1AA9A59100C47618 /* haikeihart2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A14BE1A1AA9A59100C47618 /* haikeihart2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		9A14BDCF1AA9705A00C47618 /* skirtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skirtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A14BDD41AA9705A00C47618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A14BDD51AA9705A00C47618 /* skirtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skirtTests.swift; sourceTree = "<group>"; };
+		9A14BDE01AA9713E00C47618 /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		9A14BDE11AA9713E00C47618 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		9A14BDE21AA9713E00C47618 /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
+		9A14BDE31AA9713E00C47618 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		9A14BE1A1AA9A59100C47618 /* haikeihart2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikeihart2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		9A14BDBC1AA9705A00C47618 /* skirt */ = {
 			isa = PBXGroup;
 			children = (
+				9A14BE1A1AA9A59100C47618 /* haikeihart2.jpg */,
+				9A14BDDF1AA9713E00C47618 /* スカート */,
 				9A14BDBF1AA9705A00C47618 /* AppDelegate.swift */,
 				9A14BDC11AA9705A00C47618 /* ViewController.swift */,
 				9A14BDC31AA9705A00C47618 /* Main.storyboard */,
@@ -110,6 +122,17 @@
 				9A14BDD41AA9705A00C47618 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A14BDDF1AA9713E00C47618 /* スカート */ = {
+			isa = PBXGroup;
+			children = (
+				9A14BDE01AA9713E00C47618 /* images-1.jpg */,
+				9A14BDE11AA9713E00C47618 /* images.jpg */,
+				9A14BDE21AA9713E00C47618 /* imgres-1.jpg */,
+				9A14BDE31AA9713E00C47618 /* imgres.jpg */,
+			);
+			path = "スカート";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +215,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A14BDE71AA9713E00C47618 /* imgres.jpg in Resources */,
 				9A14BDC51AA9705A00C47618 /* Main.storyboard in Resources */,
+				9A14BE1B1AA9A59100C47618 /* haikeihart2.jpg in Resources */,
+				9A14BDE51AA9713E00C47618 /* images.jpg in Resources */,
+				9A14BDE61AA9713E00C47618 /* imgres-1.jpg in Resources */,
 				9A14BDCA1AA9705A00C47618 /* LaunchScreen.xib in Resources */,
 				9A14BDC71AA9705A00C47618 /* Images.xcassets in Resources */,
+				9A14BDE41AA9713E00C47618 /* images-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				9A14BDDB1AA9705A00C47618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A14BDDC1AA9705A00C47618 /* Build configuration list for PBXNativeTarget "skirtTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				9A14BDDE1AA9705A00C47618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
